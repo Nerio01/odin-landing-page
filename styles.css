@@ -101,6 +101,16 @@ li {
   padding: 1rem 48px;
 }
 
+.information-container ul {
+  justify-content: center;
+  gap: 2rem;
+}
+
+.information-container ul li {
+  justify-content: center;
+  width: 220px;
+}
+
 .information-header {
   text-align: center;
   padding: 0.3rem;
@@ -116,10 +126,14 @@ li {
   
 }
 
+.image-and-subtext p {
+  text-align: center;
+}
+
 .image-square-rounded {
   border: 2px solid #3882F6;
-  width: 128px;
-  height: 128px;
+  width: 220px;
+  height: 220px;
   border-radius: 8px;
   align-self: center;
 }
@@ -139,12 +153,19 @@ li {
   font-weight: lighter;
 }
 
+.quote-author {
+  align-self: flex-end;
+  padding-right: 40px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
 .signup-container {
   padding: 48px 96px;
   display: flex;
   width: 800px;
   height: 40px;
-  background-color: blue;
+  background-color: #3882F6;
   border-radius: 8px;
   margin: 48px;
   align-self: center;
