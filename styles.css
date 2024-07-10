@@ -23,7 +23,6 @@ ul {
 li {
     list-style: none;
 }
-
 .header-container,
 .footer-container,
 .hero-container {
@@ -56,24 +55,36 @@ li {
     color: #E5E7EB;
 }
 
-.hero-container {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    padding: 270px 300px;
-    flex-wrap: wrap;
-    flex: 1;
+.hero-background-wrapper {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  padding: 48px;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    max-width: 1250px;
+    min-height: 400px;
+    align-self: center;
+    gap: 40px;
+    
+}
 
 .hero-text,
 .hero-image {
     flex: 1;
+    
 }
 .hero-image {
     align-content: center;
     text-align: center;
-    background-color: #e5e7eb1f; /* change to proper color later */
+    background-color: #e5e7eb1f;
+    min-height: 300px;/* change to proper color later */
 }
 
 .hero-header,
