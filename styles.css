@@ -36,7 +36,7 @@ li {
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
-    padding: 1rem 48px;
+    padding: 1rem 300px;
     flex-grow: 0;
 }
 
@@ -60,8 +60,11 @@ li {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 1rem 48px;
+    padding: 270px 300px;
+    flex-wrap: wrap;
+    flex: 1;
 }
+
 
 .hero-text,
 .hero-image {
@@ -98,12 +101,13 @@ li {
 
 .information-container {
   flex-grow: 0;
-  padding: 1rem 48px;
+  padding: 100px 300px;
 }
 
 .information-container ul {
   justify-content: center;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .information-container ul li {
@@ -113,9 +117,11 @@ li {
 
 .information-header {
   text-align: center;
-  padding: 0.3rem;
-  font-size: 24px;
-  font-weight: bold;
+  padding: 48px 0.3rem;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+
 }
 
 .image-and-subtext {
@@ -141,7 +147,7 @@ li {
 .quote-container {
   display: flex;
   flex-direction: column;
-  padding: 0.3rem 48px;
+  padding: 1rem 300px;
   justify-content: center;
   align-content: center;
   background-color: #E5E7EB;
@@ -161,7 +167,7 @@ li {
 }
 
 .signup-container {
-  padding: 48px 96px;
+  padding: 48px 4rem;
   display: flex;
   width: 800px;
   height: 40px;
@@ -192,6 +198,6 @@ li {
 
 .footer-container {
   flex-grow: 0;
-  padding: 18px;
+  padding: 1rem 300px;
   text-align: center;
 }
