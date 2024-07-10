@@ -147,7 +147,7 @@ li {
 .quote-container {
   display: flex;
   flex-direction: column;
-  padding: 1rem 300px;
+  padding: 1rem 500px;
   justify-content: center;
   align-content: center;
   background-color: #E5E7EB;
