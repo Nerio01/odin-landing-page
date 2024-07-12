@@ -46,6 +46,7 @@ li {
   flex: 1;
   max-width: 1000px;
   padding: auto 48px;
+  gap: 5px;
 }
 
 .header-logo {
