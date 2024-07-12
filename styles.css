@@ -82,19 +82,23 @@ li {
   flex-wrap: wrap;
 }
 
-.hero-text,
-.hero-image {
+.hero-text {
   flex: 1;
+}
+
+.hero-image-container {
+  display: flex;
+  
 }
 
 .hero-image {
   align-content: center;
-  text-align: center;
   background-color: #e5e7eb1f;
   image-rendering: optimizeSpeed;
-  max-width: 500px;
+  max-height: 250px;
   border-radius: 25px;
   border: 1px solid white;
+  
 }
 
 .hero-header,
