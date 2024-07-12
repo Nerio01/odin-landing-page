@@ -76,25 +76,25 @@ li {
   display: flex;
   justify-content: center;
   align-content: center;
-  flex-wrap: wrap;
-  flex: 1;
   max-width: 1000px;
-  min-height: 400px;
   align-self: center;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .hero-text,
 .hero-image {
   flex: 1;
-
 }
 
 .hero-image {
   align-content: center;
   text-align: center;
   background-color: #e5e7eb1f;
-  min-height: 300px;
+  image-rendering: optimizeSpeed;
+  max-width: 500px;
+  border-radius: 25px;
+  border: 1px solid white;
 }
 
 .hero-header,
